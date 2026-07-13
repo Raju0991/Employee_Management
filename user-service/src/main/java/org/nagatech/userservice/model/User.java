@@ -1,12 +1,16 @@
 package org.nagatech.userservice.model;
 
 import jakarta.persistence.*;
+import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 import org.nagatech.userservice.enums.Role;
 
 import java.time.LocalDateTime;
 @Data
+@AllArgsConstructor
+@NoArgsConstructor
 @Builder
 @Entity
 @Table(name="users_001")
